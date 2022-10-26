@@ -1,3 +1,6 @@
 [] Add updater to osu-trainer
 [] Make 'Do not check for updates' button
 [] Pull request for updater
+[] Add modifications to storyboard sound effects (adjust the time they play to match rate changed beatmap or remove entirely)
+  - Most likely need to modify https://github.com/FunOrange/FsBeatmapParser/blob/master/Events.fs to read Sample events
+  - Will not work if Samples are in .osb file (only one .osb file per map set and is shared by all diffs)
